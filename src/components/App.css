@@ -1,0 +1,60 @@
+/* App.css */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.apps-list {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.versions-list {
+    flex: 1;
+}
+
+.app-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    margin-left: 10px; /* Ajoute une marge à gauche pour décaler les logos */
+}
+
+.logo {
+    width: 24px; /* Ajuste la largeur selon tes besoins */
+    height: 24px; /* Ajuste la hauteur selon tes besoins */
+    cursor: pointer;
+    margin-left: 5px; /* Réduit la marge entre les logos eux-mêmes */
+}
+
+ul {
+    list-style-type: none; /* Supprime les puces des listes */
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
